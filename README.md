@@ -29,7 +29,7 @@ You need [Quicklisp](https://www.quicklisp.org/).
     writing 54198272 bytes from the dynamic space at 0x1000000000
     done]
 
-### Also works with Clozure CL
+### It works also with Clozure CL
 
     $ ccl64 -l imagen.lisp
     To load "lisp2js":
