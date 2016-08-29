@@ -4,6 +4,8 @@ Simple Common Lisp to JavaScript translator using Parenscript.
 
 ## Executable generation
 
+You need [Quicklisp](https://www.quicklisp.org/).
+
 ### With SBCL
 
     $ sbcl --load imagen.lisp
