@@ -4,6 +4,8 @@ Simple Common Lisp to JavaScript translator using Parenscript.
 
 ## Executable generation
 
+### With SBCL
+
     $ sbcl --load imagen.lisp
     
     his is SBCL 1.3.8, an implementation of ANSI Common Lisp.
@@ -24,6 +26,14 @@ Simple Common Lisp to JavaScript translator using Parenscript.
     writing 3216 bytes from the static space at 0x20100000
     writing 54198272 bytes from the dynamic space at 0x1000000000
     done]
+
+### Also works with Clozure CL
+
+    $ ccl64 -l imagen.lisp
+    To load "lisp2js":
+      Load 1 ASDF system:
+        lisp2js
+    ; Loading "lisp2js"
 
 ## Examples
 
